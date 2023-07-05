@@ -34,8 +34,20 @@ p {
 
 .w70 {
     width: 70%;
-    margin: auto;
+    margin: 0 auto;
     max-width: 1170px;
+}
+
+.m1{
+    margin: 1rem;
+}
+
+.col-4{
+    width: calc(100%/12 * 4);
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
 
 /* #endsection common */
@@ -82,6 +94,15 @@ header{
 
 /* #section main */
 
+.row{
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+/*#primo{
+    background-image: url(../img/1.webp);
+}*/
+
 /* #endsection main */
 
 
@@ -89,3 +110,16 @@ header{
 /* #section footer */
 
 /* #endsection footer */
+
+
+/* #section DEBUG*/
+
+    .debug .row{
+        background-color: yellow;
+    }
+    .debug .col-4{
+        background-color: aqua;
+    }
+
+
+/* #endsection DEBUG*/
