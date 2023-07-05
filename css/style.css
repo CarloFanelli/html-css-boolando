@@ -14,29 +14,29 @@ p {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+h3 {
+    font-size: 1rem; 
+}
+
 h4 {
     font-size: 0.8rem;
-}
-
-h3 {
-    font-size: 1.3rem;
-}
-
-.brand {
     font-weight: 400;
+}
+
+h5 {
+    font-size: 0.6rem;
+    font-weight: 200;
+    line-height: 2rem;
 }
 
 .item {
     text-transform: uppercase;
 }
 
-.price {
-    width: 20%;
-    justify-content: space-between;
-}
 
 .price .now {
     color: red;
+    padding-right: 0.5rem;
 }
 
 .price .old {
@@ -61,6 +61,9 @@ h3 {
     position: relative;
 }
 
+.d-none{
+    display: none;
+}
 /* #endsection Utilities */
 
 
@@ -133,10 +136,9 @@ header {
 
 /* #section main */
 
-
-/*#primo{
-    background-image: url(../img/1.webp);
-}*/
+main section{
+    margin: 3rem 0;
+}
 
 .col-4 .imagin img {
     width: 100%;
@@ -165,6 +167,10 @@ header {
     justify-content: space-between;
 }
 
+.brand{
+    text-transform: capitalize;
+}
+
 .discount {
     color: var(--boo-light);
     background-color: var(--boo-discount);
@@ -183,6 +189,27 @@ padding: 0.3rem;
         content: url(../img/1b.webp);
     }
 
+    #due:hover{
+        content: url(../img/2b.webp);
+    }
+
+    #tre:hover{
+        content: url(../img/3b.webp);
+    }
+
+    #quattro:hover{
+        content: url(../img/4b.webp);
+    }
+
+    #cinque:hover{
+        content: url(../img/5b.webp);
+    }
+
+    #sei:hover{
+        content: url(../img/6b.webp);
+    }
+
+
     /* #endsection imagin variation*/
 
 
@@ -192,6 +219,24 @@ padding: 0.3rem;
 
 
 /* #section footer */
+
+footer{
+    background-color: var(--boo-dark);
+    color: var(--boo-light);
+    padding: 1.5rem 0;
+}
+
+footer .info, footer .icons{
+    width: 30%;
+}
+
+footer .container{
+    justify-content: space-between;
+}
+
+.legals{
+    justify-content: space-between;
+}
 
 /* #endsection footer */
 
