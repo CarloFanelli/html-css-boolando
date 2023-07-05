@@ -26,7 +26,6 @@ h4 {
 h5 {
     font-size: 0.6rem;
     font-weight: 200;
-    line-height: 2rem;
 }
 
 .item {
@@ -226,8 +225,13 @@ footer{
     padding: 1.5rem 0;
 }
 
-footer .info, footer .icons{
+footer .info{
     width: 30%;
+} 
+
+footer .social{
+    width: 40%;
+    text-align: end;
 }
 
 footer .container{
@@ -236,6 +240,21 @@ footer .container{
 
 .legals{
     justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.social>h4{
+    font-weight: 600;
+    padding-right: 1.3rem ;
+}
+
+.icons{
+    padding: 1rem 0;
+}
+.icons>.fa-brands {
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 1.3rem;
 }
 
 /* #endsection footer */
