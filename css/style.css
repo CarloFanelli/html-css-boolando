@@ -100,6 +100,13 @@ header {
     color: var(--boo-light);
     /*position: fixed;*/
 }
+.categories {
+    justify-content: start;
+}
+
+p.cat{
+    font-weight: bold;
+    padding-right: 0.5rem;}
 
 .logo img {
     height: 1.5rem;
@@ -123,10 +130,6 @@ header {
 .logo {
     width: 50%;
     text-align: center;
-}
-
-.categories {
-    justify-content: space-between;
 }
 
 /* #endsection header */
